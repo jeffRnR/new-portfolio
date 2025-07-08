@@ -50,12 +50,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on Freelance Web App Next.js and PhP projects",
+    title: "Currently working on Noizy Nightz and improving my skills in software development and business management",
     description: "What's up with Jeff",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/nzy.png",
     spareImg: "/grid.svg",
   },
   {
@@ -71,6 +71,14 @@ export const gridItems = [
 ];
 
 export const projects = [
+  {
+    id: 5,
+    title: "Noizy Nightz - An event brand web application",
+    des: "This is a project for an event platform in Nairobi to celebrate diverse music genres",
+    img: "/nzy.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://github.com/jeffRnR/noizy",
+  },
   {
     id: 4,
     title: "Adviisory - Mental Health Management App",
@@ -162,27 +170,28 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Technical Support Intern Truehost Cloud, Nairobi, Kenya ",
-    desc: "Handled customer support chats and offered technical assistance to clients where I averaged 80 chats a day. Handled tickets where I averaged 10 tickets a day. Received customer support calls and offered technical assistance to clients, where I averaged about 5 calls a day",
+    title: "Frontend Developer @ Presta Technologies, Nairobi, Kenya ",
+    desc: "As a front-end developer intern, I enhanced and maintained web UIs, integrated RESTful APIs, and collaborated with backend teams and partners to deliver responsive, user-friendly applications",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "IT Intern Brightening Academic Center, Nairobi, Kenya",
-    desc: "Offered ICT lessons to enrolled students at the secondary school level, where the intake grew by 60%. Maintained IT infrastructure in the ICT lab. Planned and executed IT infrastructure improvements, where availability went up by 7%",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-  {
-    id: 3,
-    title: "IT Assistant Super Quality Snacks Limited, Nairobi, Kenya",
-    desc: "Provided technical support and troubleshooting for hardware and software issues using Fortect PC tool. Maintained and upgraded management software systems, ensuring optimal performance, using Java and Python programming languages. Planned and executed IT-related projects, applying Agile methods for software engineering",
+    title: "Technical Support Intern @ Truehost Cloud, Nairobi, Kenya ",
+    desc: "Handled customer support chats and offered technical assistance to clients where I averaged 80 chats a day. Handled tickets where I averaged 10 tickets a day. Received customer support calls and offered technical assistance to clients, where I averaged about 5 calls a day",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
+  // {
+  //   id: 3,
+  //   title: "IT Intern @ Brightening Academic Center, Nairobi, Kenya",
+  //   desc: "Offered ICT lessons to enrolled students at the secondary school level, where the intake grew by 60%. Maintained IT infrastructure in the ICT lab. Planned and executed IT infrastructure improvements, where availability went up by 7%",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
+  
   {
-    id: 4,
+    id: 3,
     title: "Freelance App Dev Projects via Upwork and Freelancer Freelance Platforms",
     desc: "Developed and maintained applications using modern technologies. This spanned from providing consultation services to full stack development of client projects",
     className: "md:col-span-2",
