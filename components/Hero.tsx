@@ -7,7 +7,7 @@ import { AiFillGithub } from 'react-icons/ai';
 
 const Hero = () => {
     return (
-        <div className="pb-20 pt-36">
+        <div className="pb-20 pt-10">
             <div>
                 <Spotlight
                     className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -35,15 +35,15 @@ const Hero = () => {
 
             <div className="flex justify-center relative z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60-vw] flex flex-col items-center justify-center">
-                    <img className="w-[15rem] h-[15rem] rounded-full border-[2px] border-[#FDF5E6] mb-10" src="self.jpg" alt="profile pic"/>
+                    <img className="w-[14rem] h-[14rem] rounded-full border-[2px] border-[#FDF5E6] mb-10" src="self.jpg" alt="profile pic"/>
                 
                     <h2 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
-                        Jeff Jackson Munyigi <br/> <span className='text-xs text-purple capitalize'>jeffmunyigi@gmail.com<br/>+254742422990</span>
+                        Jeff Jackson Munyigi <br/> <span className='text-xs text-purple lowercase'>jeffmunyigi@gmail.com<br/>+254742422990</span>
                     </h2>
 
                     <TextGenerateEffect 
                         className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                        words="Welcome to my digital world, where I'll bring you Ideas to a Seamleass Digital Reality 😊"
+                        words="Welcome to my digital world, where I'll bring your Ideas to a Seamleass Digital Reality 😊"
                     />
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         Hello, I&apos;m Jeff Jackson, a Software Engineer based in Nairobi
