@@ -170,14 +170,16 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Developer @ Presta Technologies, Nairobi, Kenya ",
+    title: "Frontend Developer, Nairobi, Kenya ",
+    company: "Presta Technologies",
     desc: "As a front-end developer intern, I enhanced and maintained web UIs, integrated RESTful APIs, and collaborated with backend teams and partners to deliver responsive, user-friendly applications",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Technical Support Intern @ Truehost Cloud, Nairobi, Kenya ",
+    title: "Technical Support Intern, Nairobi, Kenya ",
+    company: "Truehost Cloud",
     desc: "Handled customer support chats and offered technical assistance to clients where I averaged 80 chats a day. Handled tickets where I averaged 10 tickets a day. Received customer support calls and offered technical assistance to clients, where I averaged about 5 calls a day",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -192,7 +194,8 @@ export const workExperience = [
   
   {
     id: 3,
-    title: "Freelance App Dev Projects via Upwork and Freelancer Freelance Platforms",
+    title: "Freelance App Dev Projects via",
+    company: "Upwork and Freelancer Freelance Platforms",
     desc: "Developed and maintained applications using modern technologies. This spanned from providing consultation services to full stack development of client projects",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
