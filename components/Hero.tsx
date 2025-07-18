@@ -35,7 +35,7 @@ const Hero = () => {
 
             <div className="flex justify-center relative z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60-vw] flex flex-col items-center justify-center">
-                    <img className="w-[14rem] h-[14rem] rounded-full border-[2px] border-[#FDF5E6] mb-10" src="self.jpg" alt="profile pic"/>
+                    <img className="w-[14rem] h-[14rem] rounded-full border-[2px] border-[#FDF5E6] mb-10" src="j.png" alt="profile pic"/>
                 
                     <h2 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
                         Jeff Jackson Munyigi <br/> <span className='text-xs text-purple lowercase'>jeffmunyigi@gmail.com<br/>+254742422990</span>
