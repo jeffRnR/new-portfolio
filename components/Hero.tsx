@@ -43,7 +43,7 @@ const Hero = () => {
       >
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60-vw] flex flex-col items-center justify-center">
           <img
-            className="mb-8 h-40 w-40 rounded-full border border-white/15 object-cover shadow-[0_0_70px_rgba(0,140,140,0.16)] ring-4 ring-[#008c8c]/10 md:h-44 md:w-44"
+            className="mb-8 h-50 w-50 rounded-full border border-white/15 object-cover shadow-[0_0_70px_rgba(0,140,140,0.16)] ring-4 ring-[#008c8c]/10 md:h-54 md:w-54"
             src="self2.jpeg"
             alt="Jeff Jackson Munyigi"
           />
