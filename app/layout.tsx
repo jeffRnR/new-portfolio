@@ -10,8 +10,9 @@ const fontSans = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Jeff's Portfolio",
-  description: "Jeff Jackson's professional and morder portfolio",
+  title: "Jeff Jackson Munyigi | Software Engineer",
+  description:
+    "Jeff Jackson Munyigi is a Nairobi-based software engineer building practical full-stack, AI and fintech products.",
 };
 
 export default function RootLayout({

@@ -73,6 +73,10 @@
   body {
     @apply bg-background text-foreground;
   }
+  ::selection {
+    color: #06110f;
+    background: #71d6c4;
+  }
   button {
     @apply active:outline-none;
   }
@@ -85,5 +89,26 @@
 
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  [class~="group/bento"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .bento-float,
+  .bento-chip {
+    transform: none !important;
   }
 }

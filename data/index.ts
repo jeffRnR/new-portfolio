@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I am a skilled full stack software developer ",
+    title: "I build practical software, from first sketch through deployment.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with different time zones",
+    title: "Based in Nairobi, building for a more connected Africa.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -30,7 +30,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "This and so much more",
+    description: "The right tools for the problem",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for innovation and driving digital change",
+    title: "From product interfaces to AI, fintech and connected systems.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on Noizy Nightz and improving my skills in software development and business management",
-    description: "What's up with Jeff",
+    title: "Building products for African businesses, creators and consumers.",
+    description: "Product-minded engineering",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,44 +72,43 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 5,
-    title: "Noizy Nightz - An event brand web application",
-    des: "This is a project for an event platform in Nairobi to celebrate diverse music genres",
-    img: "/nzy.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/jeffRnR/noizy",
-  },
-  {
-    id: 4,
-    title: "Adviisory - Mental Health Management App",
-    des: "This project leverages the power of php to create an intuitive web application for mental health application",
-    img: "/adv.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/jeffRnR/adviisory2",
-  },
-  {
-    id: 3,
-    title: "omp - Marketplace App",
-    des: "This is the mvp for a marketplace, helping business herness their digital presence",
-    img: "/omp.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/jeffRnR/omp-mvp",
+    id: 1,
+    title: "Dohtective",
+    des: "An AI-powered early warning system that helps businesses spot financial leaks and turn raw numbers into useful decisions.",
+    img: "/dohtective-site.png",
+    link: "https://github.com/jeffRnR/dohtective",
+    demo: "https://dohtective.vercel.app/",
   },
   {
     id: 2,
-    title: "Clinic-click - Pateient management App",
-    des: "This projects, built on Next.js and Typescript, helps manage patient appointments",
-    img: "/clc.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/jeffRnR/clinic_click",
+    title: "Noizy Hub",
+    des: "An event and vendor marketplace built around discovery, ticketing, M-Pesa payments and the people behind Kenya's live events.",
+    img: "/noizy-hub-site.png",
+    link: "https://github.com/jeffRnR/marketplace",
+    demo: "https://noizymarketplace.vercel.app/",
   },
   {
-    id: 1,
-    title: "Billyz College",
-    des: "This is a PhP project for a college management System",
-    img: "/billyz.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/jeffRnR/billyz_college",
+    id: 3,
+    title: "KSTTI",
+    des: "A digital platform for Kirinyaga Seniors Technical Training Institute, bringing a clearer online presence and better digital workflows to education.",
+    img: "/kstti-site.png",
+    link: "https://github.com/jeffRnR/kstti",
+    demo: "https://kstti.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Noizy",
+    des: "A creative technology project exploring how digital experiences can support music, events and African artists.",
+    img: "/noizy-site.png",
+    link: "https://github.com/jeffRnR/noizy",
+  },
+  {
+    id: 5,
+    title: "Adviisory",
+    des: "A mental-health management application designed to make support and care workflows easier to navigate.",
+    img: "/adv.jpg",
+    imgAlt: "Adviisory mental-health project artwork",
+    link: "https://github.com/jeffRnR/adviisory2",
   },
 ];
 
@@ -169,6 +168,14 @@ export const testimonials = [
 
 export const workExperience = [
   {
+    id: 4,
+    title: "Machine Learning Intern, Remote ",
+    company: "FlyRank AI",
+    desc: "Analyzed anonymized search-content data and explored ranking models for content discoverability. Contributed across problem framing, feature preparation, baseline comparisons, and evaluation, turning findings into prioritized recommendations.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
     id: 1,
     title: "Frontend Developer, Nairobi, Kenya ",
     company: "Presta Technologies",
@@ -217,8 +224,8 @@ export const socialMedia = [
   },
   {
     id: 3,
-    name: "twitter",
-    link: "https://twitter.com/Jeff_jaxon",
+    name: "X",
+    link: "https://x.com/Jeff_jaxon",
     img: "/twit.svg",
   },
   {

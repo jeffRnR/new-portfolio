@@ -1,6 +1,7 @@
 import React from 'react'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
 
 const Footer = () => {
@@ -12,10 +13,9 @@ const Footer = () => {
             <div className='flex flex-col items-center'>
                 <h1 className='heading lg:max-w-[45vw]'>Ready to take <span className='text-purple'>your</span> digital presence to the next level?</h1>
                 <p className='text-white-200 md:mt-10 my-5 text-center'>
-                    Reach out to me today and let&appos;s discuss
-                    how I can help you achieve your digital goals.
+                    Have a real problem worth solving? Let&apos;s talk about what we can build.
                 </p>
-                <a href="mailto:jeffmunyigi@gmailcom">
+                <a href="mailto:jeffmunyigi@gmail.com">
                     <MagicButton
                         title="Let's get in touch"
                         icon={<FaLocationArrow/>}
@@ -33,7 +33,9 @@ const Footer = () => {
                             backdrop:blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg
                             border-black-300'
                         >
-                            <a href={profile.link} target='_blank'><img src={profile.img} alt={profile.name} width={20} height={20}/></a>
+                            <a href={profile.link} target='_blank' rel='noreferrer' aria-label={`Visit Jeff on ${profile.name}`}>
+                                {profile.name === 'X' ? <FaXTwitter size={20} aria-hidden='true' /> : <img src={profile.img} alt="" width={20} height={20}/>}
+                            </a>
                         </div>
                     ))}
                 </div>
